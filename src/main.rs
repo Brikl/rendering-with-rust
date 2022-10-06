@@ -20,10 +20,10 @@ fn main() {
         position: [-0.5, -0.5],
     };
     let vertex2 = Vertex {
-        position: [0.0, 0.5],
+        position: [0.4, 1.0],
     };
     let vertex3 = Vertex {
-        position: [0.5, -0.25],
+        position: [0.25, -0.25],
     };
 
     let shape = vec![vertex1, vertex2, vertex3];
@@ -34,7 +34,7 @@ fn main() {
         position: [0.0, 0.0],
     };
     let vertex5 = Vertex {
-        position: [1.0, 0.5],
+        position: [0.0, -0.5],
     };
     let vertex6 = Vertex {
         position: [0.5, -0.25],
@@ -58,7 +58,7 @@ fn main() {
         #version 140
         out vec4 color;
         void main() {
-            color = vec4(0.6, 0.2, 0.8, 1.0);
+            color = vec4(1, 0.2, 0.08, 0.4);
         }
     "#;
 
